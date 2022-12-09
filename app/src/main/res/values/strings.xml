@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SIMS</string>
+    <string name="register">СТУДЕНЧЕСКИЙ РЕГИСТР</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Парол</string>
+    <string name="signup_login_hint">Уже Есть Аккаунт? Войти</string>
+    <string name="login_signup_hint">Нет Аккаунта? Зарегистрироваться</string>
+    <string name="close">Закрыть</string>
+    <string name="admin_login">АДМИНИСТРАТОРА ЛОГИН</string>
+    <string name="student_login">СТУДЕНТ ЛОГИН</string>
+    <string name="open">Открытым</string>
+    <string name="server_client_id">586946856215-qcutv5gukcognlbg72iedlhg00765qlm.apps.googleusercontent.com</string>
+</resources>

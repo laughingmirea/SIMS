@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m" >
+        <activity android:name=".ui.activities.student.StudentReportActivity" />
+        <activity android:name=".ui.activities.student.StudentNoticeFromAdminActivity" />
+        <activity android:name=".ui.activities.admin.AdminStudentReportActivity" />
+        <activity android:name=".ui.activities.admin.AdminNoticeToStudentActivity" />
+        <activity android:name=".ui.activities.admin.AdminStudentViewProfileActivity" />
+        <activity android:name=".ui.activities.admin.AdminStudentUpdateActivity" />
+        <activity android:name=".ui.activities.admin.AdminStudentViewAllActivity" />
+        <activity android:name=".ui.activities.admin.AdminStudentAddActivity" />
+        <activity android:name=".ui.activities.student.StudentViewProfileActivity" />
+        <activity android:name=".ui.activities.student.StudentChangePasswordActivity" />
+        <activity android:name=".ui.activities.student.StudentUpdateActivity" />
+        <activity android:name=".ui.activities.student.StudentMenuActivity" />
+        <activity android:name=".ui.activities.admin.AdminForgotPassword" />
+        <activity android:name=".ui.activities.admin.AdminChangePasswordActivity" />
+        <activity android:name=".ui.activities.student.StudentRegisterActivity" />
+        <activity android:name=".ui.activities.student.StudentLoginActivity" />
+        <activity android:name=".ui.activities.admin.AdminMenuActivity" />
+        <activity android:name=".ui.activities.admin.AdminUpdateActivity" />
+        <activity android:name=".ui.activities.admin.AdminLoginActivity" />
+        <activity
+            android:name=".ui.activities.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
