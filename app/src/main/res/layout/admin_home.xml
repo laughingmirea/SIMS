@@ -76,7 +76,7 @@
                     android:paddingRight="20dp"
                     android:text="Профиль\nАдминистратора"
                     android:textColor="@color/white"
-                    android:textSize="18sp"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
 
@@ -101,7 +101,7 @@
                     android:paddingRight="20dp"
                     android:text="Список\nСтудентов"
                     android:textColor="#fff"
-                    android:textSize="18sp"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>
@@ -138,7 +138,7 @@
                     android:paddingRight="20dp"
                     android:text="Добавить\nСтудента"
                     android:textColor="#fff"
-                    android:textSize="18sp"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
 
@@ -161,9 +161,9 @@
                     android:drawableTint="#fff"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
-                    android:text="Уведомления\nСтудентам"
+                    android:text="Уведом-ления\nСтудентам"
                     android:textColor="#fff"
-                    android:textSize="18sp"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>
@@ -197,9 +197,9 @@
                     android:drawableTint="#fff"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
-                    android:text="Сообщение"
+                    android:text="Сообще-ние"
                     android:textColor="#fff"
-                    android:textSize="18sp"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
 
@@ -224,7 +224,7 @@
                     android:paddingRight="20dp"
                     android:text="Выйти"
                     android:textColor="#fff"
-                    android:textSize="18sp"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>

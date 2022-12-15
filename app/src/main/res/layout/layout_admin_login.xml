@@ -59,7 +59,7 @@
                 android:id="@+id/cb_admin_login_remember_me"
                 style="@style/viewParent"
                 android:layout_gravity="start"
-                android:text="Запомнить меня"
+                android:text="Запомнить \nменя"
                 android:textColor="@color/primaryTextColor"
                 android:textSize="15sp" />
 

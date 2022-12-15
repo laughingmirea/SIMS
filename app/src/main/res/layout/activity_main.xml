@@ -16,7 +16,7 @@
         android:gravity="center"
         android:text="Система Управления\nСтудентами"
         android:textColor="@color/white"
-        android:textSize="25dp" />
+        android:textSize="30dp" />
 
     <ImageView
         android:layout_width="250dp"
@@ -29,6 +29,6 @@
         android:layout_height="wrap_content"
         android:text="© INBO-04-19"
         android:textColor="@color/white"
-        android:textSize="13dp" />
+        android:textSize="18dp" />
 
 </LinearLayout>
